@@ -12,15 +12,37 @@
 <body>
   <main class="container">
     <section class="rating-state">
-      <header></header>
-      <article></article>
-      <footer></footer>
+      <header class="star-icon">
+      </header>
+      <article class="rating-article">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+          offering!</p>
+      </article>
+      <footer>
+        <div class="rating-buttons">
+          <button class="rating-btn" value="1">1</button>
+          <button class="rating-btn" value="2">2</button>
+          <button class="rating-btn" value="3">3</button>
+          <button class="rating-btn" value="4">4</button>
+          <button class="rating-btn" value="5">5</button>
+        </div>
+        <button class="submit-btn">SUBMIT</button>
+      </footer>
     </section>
     <section class="thankyou-state">
-      <header></header>
-      <article></article>
+      <header class="thankyou-icon">
+        <img src="./images/illustration-thank-you.svg" alt="thank you illustration">
+      </header>
+      <article class="thankyou-article">
+        <p class="selection">You selected <span id="selectedRating"></span> out of 5</p>
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
+          touch!</p>
+      </article>
     </section>
   </main>
+  <script src="./script.js"></script>
 </body>
 
 </html>
