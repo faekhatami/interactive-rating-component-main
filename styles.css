@@ -72,9 +72,11 @@ body {
     font-size: 10px;
     opacity: 0.8;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.rating-btn:hover {
+.rating-btn:hover,
+.rating-btn.selected {
     background-color: var(--Orange);
     color: var(--Very-Dark-Blue);
 }
@@ -137,4 +139,10 @@ body {
     opacity: 0.7;
     font-weight: 400;
     line-height: 1.5;
+}
+
+@media (min-width:376px) {
+    .container {
+        max-width: 360px;
+    }
 }
