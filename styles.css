@@ -19,6 +19,9 @@ body {
     background-color: var(--Very-Dark-Blue);
     padding: 50px;
     font-family: 'overpass';
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -26,6 +29,7 @@ body {
     max-width: 320px;
     width: 100%;
     padding: 20px;
+    margin: 100px;
     border-radius: 10px;
     color: var(--White);
 }
